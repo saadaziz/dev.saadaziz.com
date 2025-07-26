@@ -51,6 +51,14 @@ Delete feature branch (local and remote):
 git branch -d feature/<short-description>
 git push origin --delete feature/<short-description>
 
+### 7. Verify Deployment
+GitHub Pages will auto-deploy main → dev.saadaziz.com.
+- Test in browser
+
+### 8. Prep Next Promotion to Production
+- After QA, follow steps in deployment.md to promote dev → prod.
+- Confirm saadaziz.com CNAME and GitHub Pages settings are correct.
+
 ---
 
 # How to promote code from `dev.saadaziz.com` (development) to `saadaziz.com` (production) safely.

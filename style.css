@@ -1303,3 +1303,12 @@ body.resume-page {
     display: none !important;
   }
 }
+
+.btn.disabled {
+    background-color: #ccc;      /* grey background */
+    color: #666;                 /* dimmed text */
+    pointer-events: none;        /* disables clicking */
+    opacity: 0.6;                /* slightly transparent */
+    cursor: not-allowed;         /* shows "no" cursor */
+    text-decoration: none;
+}
