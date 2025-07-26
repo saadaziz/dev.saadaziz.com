@@ -5,6 +5,17 @@ This project adheres to [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ---
 
+<!-- Template for future releases -->
+## [x.y.z] – YYYY-MM-DD
+### Added
+-
+### Changed
+-
+### Fixed
+-
+
+---
+
 ## [Unreleased]
 - Planned: Integration with CareerGPT backend (`aurorahours.com/careergpt`) for contextual responses.
 - Planned: User authentication (Google OAuth + MySQL) for coaching signup.
@@ -21,9 +32,11 @@ This project adheres to [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - Added `CNAME` file with `dev.saadaziz.com`.
 - Set up GoDaddy DNS CNAME record (`dev` → `saadaziz.github.io`).
 - Verified separation between production (`saadaziz.com`) and dev (`dev.saadaziz.com`) environments.
+- Deployment instructions for promoting from dev.saadaziz.com to saadaziz.com.
 
 ### Changed
 - Migrated development files from production repo to new dev repo for cleaner branching.
+- Clarified workflow steps for branch promotion and QA signoff.
 
 ### Notes
 - HTTPS certificate issuance pending; expected within 30 minutes of DNS propagation.
