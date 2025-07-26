@@ -34,10 +34,10 @@ git push --set-upstream origin feature/<short-description>
 ### 4. Open a Pull Request (PR)
 - Compare feature/* → main
 - PR should include:
- - Description of changes
- - Testing performed
- - Risks or dependencies
- - Screenshots if UI changes
+  - Description of changes
+  - Testing performed
+  - Risks or dependencies
+  - Screenshots if UI changes
 
 ### 5. Review & Approval
 - Address code review feedback.
