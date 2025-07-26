@@ -10,6 +10,8 @@
 </head>
 
 <body class="demo-page">
+  <input type="hidden" id="build-version" value="v0.1.1 – July 26, 2025, 8:45 PM PT">
+
   <header>
     <div class="container">
       <nav>
@@ -110,6 +112,20 @@
       }
     });
 
+    // === Build Version Display for dev or local (file://) ===
+    document.addEventListener('DOMContentLoaded', () => {
+      const version = document.getElementById('build-version')?.value;
+
+      const isDev = window.location.hostname.startsWith("dev.");
+      const isLocal = window.location.protocol === "file:"; // detect file://
+
+      if (version && (isDev || isLocal)) {
+        const footer = document.createElement("div");
+        footer.style.cssText = "font-size:12px; color:gray; text-align:center; margin-top:10px;";
+        footer.textContent = `Build: ${version}`;
+        document.body.appendChild(footer);
+      }
+    });
   </script>
 
 </body>
