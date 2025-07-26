@@ -44,3 +44,14 @@ This project adheres to [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ---
 
+## [0.2.0] – 2025-07-27
+### Changed
+- UI cleanup across `resume.html` and `index.html`:
+  - Synced skills sections between pages for consistency.
+  - Added version footer logic (visible only on `dev.saadaziz.com`).
+  - Disabled "View Live" button for unavailable demos (grayed-out non-clickable state).
+- Updated documentation:
+  - Added `DEPLOYMENT.md` for branch → PR workflow and dev → prod promotion.
+
+### Notes
+- Refer to `DEPLOYMENT.md` for full deployment instructions.
